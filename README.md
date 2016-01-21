@@ -62,4 +62,4 @@ curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo
 
 To use, you simply replace `$username` with your Github username, `$token` with a Personal Access Token for the same user available for generation in your [Github Settings > Applications](https://github.com/settings/applications), and `$repo_name` with your desired new Repository name.
 
-To make running the `github-new` function and the straight-forward command smooth and reliable on your system, ensure that your SSH key is successfully authenticated follow the steps provided here: [Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/)   
+To make running the `github-new` function and the straight-forward command smooth and reliably on your system every time, ensure that your SSH key is successfully authenticated by following the GitHub Help steps provided here: [Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/)   
