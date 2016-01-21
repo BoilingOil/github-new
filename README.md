@@ -1,6 +1,6 @@
 # github-new-repo
 
-## Creating a repo from the command line
+## Create a Github Repo from the Command Line
 
 ```
 github-new() {
