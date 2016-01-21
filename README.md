@@ -6,7 +6,7 @@ Creating a repo from the command line and pushing your commits is definitely fas
 
 ## THE BASH FUNCTION
 
-Copy and paster the following function into your `~/.bash_profile`, open a new Terminal window or source `~/.bash_profile`, and the function will be loaded up and ready for use.
+Copy and paste the following function into your `~/.bash_profile`, open a new Terminal window or source `~/.bash_profile`, and the function will be loaded up and ready for use.
 
 Then while in an existing git project, simply type `github-new` and the function will run and create the repo and push your master branch up in one shot. You will need to set some github config variables (instructions will be spit out if you don’t have them).
 
@@ -61,3 +61,5 @@ curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo
 ```
 
 To use, you simply replace `$username` with your Github username, `$token` with a Personal Access Token for the same user available for generation in your [Github Settings > Applications](https://github.com/settings/applications), and `$repo_name` with your desired new Repository name.
+
+To make running the `github-new` function and the straight-forward command smooth and reliable on your system, ensure that your SSH key is successfully authenticated follow the steps provided here: [Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/)   
