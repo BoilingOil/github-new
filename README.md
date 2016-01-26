@@ -1,4 +1,4 @@
-# github-new-repo
+# github-new
 
 ## Create a Github Repo from the Command Line
 
